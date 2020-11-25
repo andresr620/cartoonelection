@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+h1 {
+    text-align: center;
+}
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    padding: 40px;
+}
+td {
+    padding: 40px;
+}
+img {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+}
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+</style>
+<title>Cartoonsville Election</title>
+<h1>2020 Cartoonsville General Election</h1>
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+<body>
+    <form action="/vote" method="post">
+<table>
+    <tr>
+        <th>Postion</th>
+        <th>Rose Party Candidate</th>
+        <th>Iris Party Candidate</th>
+    </tr>
+    <tr>
+        <th>President</th>
+        <td><a href="https://en.wikipedia.org/wiki/Daffy_Duck"><img src="Daffy_Duck..png" alt"Daffy" height=60 /></a><br>Daffy Dumas Duck<br><input type="radio" id="Daffy" name="president" value="rose" /></td>
+        <td><a href="https://en.wikipedia.org/wiki/Bugs_Bunny"><img src="Bugs_Bunny.png"  alt="Bunny" height=60 /><br></a>Bugs Bunny<br><input type="radio" id="Bunny" name="president" value="iris" /></td>
+    </tr>
+    <tr>
+        <th>Vice President</th>
+        <td><a href="https://en.wikipedia.org/wiki/Wile_E._Coyote_and_the_Road_Runner"><img src="wile.jpg" alt="wile" height=60 /></a><br>Wile E. Coyote<br><input type="radio" id="wile" name="vice-president" value="rose" /></td>
+        <td><a href="https://en.wikipedia.org/wiki/Wile_E._Coyote_and_the_Road_Runner"><img src="road-runner.jpg" alt="runner" height=60 /></a><br>Road Runner<br><input type="radio" id="runner" name="vice-president" value="iris" /></td>
+    </tr>
+    <tr>
+        <th>Representative</th>
+        <td><a href="https://en.wikipedia.org/wiki/Elmer_Fudd"><img src="elmer-fudd.jpg" alt="elmer" height=60 /></a><br>Elmer Fudd<br><input type="radio" id="elmer" name="representative" value="rose" /></td>
+        <td><a href="https://en.wikipedia.org/wiki/Porky_Pig"><img src="porky.jpg" alt="porky" height=60 /></a><br>Porky Pig<br><input type="radio" id="porky" name="representative" value="iris" /></td>
+    </tr>
+    <tr>
+        <th>Mayor</th>
+        <td><a href="https://en.wikipedia.org/wiki/Yosemite_Sam"><img src="sam.jpg" alt="sam" height=65 /></a><br>Yosemite Sam<br><input type="radio" id="sam" name="mayor" value="rose" /></td>
+        <td><a href="https://en.wikipedia.org/wiki/Sylvester_the_Cat"><img src="james-cat.jpg" alt="james" height=60 /></a><br>Sylvester James Pussycat, Sr<br><input type="radio" id="james" name="mayor" value="iris" /></td>
+    </tr>
+</table>
+<br>
+<button type="submit" value="Submit" style="margin-left: 47%">Submit</button>
+<button type="reset" value="Reset">Reset</button>
+</body>
+</form>
+<br>
+<footer>Cartoonsville Election Comission &copy; 2020 - Andres Ramirez</footer>
+</html>
